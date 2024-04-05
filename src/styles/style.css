@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #910F30;
+    --secondary-color: #D4183F;
+    --tertiary-color: #FF92A2;
+    --quaternary-color: #fff;
+    --background-color-1: #FFF5F5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background-color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 40px;
+    width: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#logo-decode {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+main {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 45%;
+    height: 500px;
+    padding: 5px;
+    align-items: center;
+    background-color: var(--quaternary-color);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+#text-to-encrypt {
+    display: flex;
+    border: none;
+    background-color: var(--quaternary-color);
+    width: 90%;
+    height: 350px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    resize: none;
+    font-family: 'Lexend Giga', sans-serif;
+    border-radius: 20px;
+    outline: none;
+}
+
+.warning {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+    margin: 0px 0px 20px 10px;
+    align-self: flex-start;
+    /* Alinha à esquerda dentro da flexbox */
+    text-align: left;
+}
+
+#warning-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 95%;
+}
+
+#encrypt-message,
+#decrypt-message {
+    width: 170px;
+    height: 50px;
+    color: var(--background-color-1);
+    border: 3px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Lexend Giga', sans-serif;
+    padding: 5px;
+}
+
+#encrypt-message:hover,
+#decrypt-message:hover {
+    color: var(--background-color-1);
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.output-text {
+    background-color: var(--quaternary-color);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45%;
+    height: 500px;
+    padding: 5px;
+}
+
+#magnifying-glass {
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+
+.initial-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 90%;
+    height: 350px;
+    padding: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: center;
+}
+
+#copy-button {
+    width: 170px;
+    height: 50px;
+    color: var(--background-color-1);
+    border: 3px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Lexend Giga', sans-serif;
+    margin-top: 60px;
+    visibility: hidden;
+}
+
+#copy-button:hover {
+    color: var(--background-color-1);
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--quaternary-color);
+}
+
+a:hover {
+    color: var(--tertiary-color);
+}

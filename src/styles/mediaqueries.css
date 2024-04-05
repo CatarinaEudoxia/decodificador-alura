@@ -1,0 +1,357 @@
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15PX;
+        align-items: center;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .input-text {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        width: 90%;
+        height: 300px;
+        padding: 5px;
+        align-items: center;
+        background-color: var(--quaternary-color);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #text-to-encrypt {
+        display: flex;
+        border: none;
+        background-color: var(--quaternary-color);
+        width: 90%;
+        height: 250px;
+        margin: 10px 0px 10px 0px;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 10px;
+        resize: none;
+        font-family: 'Lexend Giga', sans-serif;
+        border-radius: 20px;
+        outline: none;
+    }
+
+    .warning {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 12px;
+        margin: 0px 0px 10px 10px;
+        align-self: flex-start;
+        /* Alinha à esquerda dentro da flexbox */
+        text-align: left;
+    }
+
+    #encrypt-message,
+    #decrypt-message {
+        width: 170px;
+        height: 40px;
+        color: var(--background-color-1);
+        border: 3px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Lexend Giga', sans-serif;
+        padding: 5px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    #encrypt-message:hover,
+    #decrypt-message:hover {
+        color: var(--background-color-1);
+        border: 3px solid var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+
+    .output-text {
+        background-color: var(--quaternary-color);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90%;
+        height: 300px;
+        padding: 5px;
+    }
+
+    #magnifying-glass {
+        display: flex;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .initial-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+        font-size: 12px;
+        width: 90%;
+        height: 250px;
+        ;
+        padding: 10px;
+        font-family: 'Lexend Giga', sans-serif;
+        text-align: justify;
+    }
+
+    #copy-button {
+        width: 170px;
+        height: 40px;
+        color: var(--background-color-1);
+        border: 3px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Lexend Giga', sans-serif;
+        margin-top: 45px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        font-size: 12px;
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        height: 100%;
+        background-color: var(--background-color-1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Lexend Giga', sans-serif;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        height: 40px;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+        font-size: 10px;
+    }
+
+    #logo-decode {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15PX;
+        align-items: center;
+        margin: 15px 0px 30px 0px;
+    }
+
+    .input-text {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        width: 90%;
+        height: 300px;
+        padding: 5px;
+        align-items: center;
+        background-color: var(--quaternary-color);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #text-to-encrypt {
+        display: flex;
+        border: none;
+        background-color: var(--quaternary-color);
+        width: 90%;
+        height: 250px;
+        margin: 10px 0px 10px 0px;
+        cursor: pointer;
+        font-size: 10px;
+        padding: 10px;
+        resize: none;
+        font-family: 'Lexend Giga', sans-serif;
+        border-radius: 20px;
+        outline: none;
+    }
+
+    .warning {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 10px;
+        margin: 0px 0px 10px 10px;
+        align-self: flex-start;
+        /* Alinha à esquerda dentro da flexbox */
+        text-align: left;
+    }
+
+    #warning-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        margin-top: 10px;
+        width: 80%;
+        padding: 2px;
+    }
+
+    #encrypt-message,
+    #decrypt-message {
+        width: 80%;
+        height: 30px;
+        color: var(--background-color-1);
+        border: 3px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: 'Lexend Giga', sans-serif;
+        padding: 2px;
+    }
+
+    #encrypt-message:hover,
+    #decrypt-message:hover {
+        color: var(--background-color-1);
+        border: 3px solid var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+
+    .output-text {
+        background-color: var(--quaternary-color);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90%;
+        height: 300px;
+        padding: 5px;
+    }
+
+    #magnifying-glass {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .initial-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+        font-size: 10px;
+        width: 90%;
+        height: 250px;
+        padding: 10px;
+        font-family: 'Lexend Giga', sans-serif;
+        text-align: center;
+    }
+
+    .button-copy {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    #copy-button {
+        width: 80%;
+        height: 30px;
+        color: var(--background-color-1);
+        border: 3px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: 'Lexend Giga', sans-serif;
+        margin-top: 45px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        font-size: 10px;
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+        width: 100%;
+    }
+}
+
+@media (max-width: 250px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 40px;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+        font-size: 8px;
+
+    }
+
+    #logo-decode {
+        width: 35px;
+        height: 35px;
+    }
+
+    .button-copy {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    #copy-button {
+        width: 80%;
+        height: 30px;
+        color: var(--background-color-1);
+        border: 3px solid var(--primary-color);
+        background-color: var(--secondary-color);
+        border-radius: 30px;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: 'Lexend Giga', sans-serif;
+        margin-top: 15px;
+    }
+}
