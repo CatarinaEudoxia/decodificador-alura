@@ -11,6 +11,7 @@
 * {
     padding: 0;
     margin: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -86,6 +87,7 @@ main {
     align-self: flex-start;
     /* Alinha à esquerda dentro da flexbox */
     text-align: left;
+    align-items: center;
 }
 
 #warning-icon {
@@ -151,11 +153,54 @@ main {
     margin: 10px 0px 10px 0px;
     border-radius: 20px;
     font-size: 20px;
-    width: 90%;
+    max-width: 90%;
     height: 350px;
     padding: 10px;
     font-family: 'Lexend Giga', sans-serif;
     text-align: center;
+}
+
+.initial-message.encrypted-message, .initial-message.decrypted-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 90%;
+    word-break: break-word;
+    overflow: auto;
+}
+
+.initial-message.encrypted-message.empty-message, .initial-message.decrypted-message.empty-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    max-width: 90%;
+    height: 350px;
+    padding: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: center;
+}
+
+.initial-message.encrypted-message.invalid-message, .initial-message.decrypted-message.invalid-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    max-width: 90%;
+    height: 350px;
+    padding: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: center;
+    font-weight: bold
 }
 
 #copy-button {
