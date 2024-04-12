@@ -25,7 +25,7 @@ function copyButtonVisibility() {
     const message = inputMessage.value.trim();
 
     // Verifica se o campo de entrada está vazio ou contém uma mensagem inválida
-    if (message === "" || /[^a-z]/.test(message)) {
+    if (message === "" || /[^a-z,.!?;:'"\s]|[^a-z\s][a-z]/.test(message)) {
         // Se estiver vazio ou contiver uma mensagem inválida, oculta o botão de cópia
         copyMessage.style.visibility = "hidden";
     } else {
@@ -71,7 +71,7 @@ buttonEncryptMessage.addEventListener("click", () => {
         return;
     } else {
         // Verifica se a mensagem contém apenas letras minúsculas
-        if (/[^a-z]/.test(messageToEncrypt)) {
+        if (/[^a-z,.!?;:'"\s]|[^a-z\s][a-z]/.test(messageToEncrypt)) {
             showWarning("Apenas letras minúsculas e sem acento.")
             outputMessage.classList.add("invalid-message");
             outputMessage.textContent = "Mensagem Inválida. Certifique-se de não usar letras maiúsculas ou acentos."
@@ -141,7 +141,7 @@ buttonDecryptMessage.addEventListener("click", () => {
         return;
     } else {
         // Verifica se a mensagem contém apenas letras minúsculas
-        if (/[^a-z]/.test(messageToDecrypt)) {
+        if (/[^a-z,.!?;:'"\s]|[^a-z\s][a-z]/.test(messageToDecrypt)) {
             showWarning("Apenas letras minúsculas e sem acento.")
             outputMessage.classList.add("invalid-message");
             outputMessage.textContent = "Mensagem Inválida. Certifique-se de não usar letras maiúsculas ou acentos."
