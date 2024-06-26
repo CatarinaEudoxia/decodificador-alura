@@ -187,6 +187,11 @@
         width: 100%;
     }
 
+    h1 {
+        display: flex;
+        align-items: center;
+    }
+
     main {
         display: flex;
         flex-direction: column;
@@ -365,6 +370,11 @@
         width: 100%;
         margin: 10px 10px 10px 10px;
         font-size: 14px;
+    }
+
+    .vertical-line {
+        border-left: 1px solid #000000; 
+        height: 45px; 
     }
 
     #logo-decode {
