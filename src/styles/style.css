@@ -32,8 +32,8 @@ header {
 }
 
 .vertical-line {
-    border-left: 1px solid #000000; 
-    height: 50px; 
+    border-left: 1px solid #000000;
+    height: 50px;
 }
 
 
@@ -161,7 +161,8 @@ main {
     text-align: center;
 }
 
-.initial-message.encrypted-message, .initial-message.decrypted-message {
+.initial-message.encrypted-message,
+.initial-message.decrypted-message {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -173,7 +174,8 @@ main {
     overflow: auto;
 }
 
-.initial-message.encrypted-message.empty-message, .initial-message.decrypted-message.empty-message {
+.initial-message.encrypted-message.empty-message,
+.initial-message.decrypted-message.empty-message {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +190,8 @@ main {
     text-align: center;
 }
 
-.initial-message.encrypted-message.invalid-message, .initial-message.decrypted-message.invalid-message {
+.initial-message.encrypted-message.invalid-message,
+.initial-message.decrypted-message.invalid-message {
     display: flex;
     flex-direction: column;
     align-items: center;
