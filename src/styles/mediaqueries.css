@@ -1,17 +1,22 @@
 @media (max-width: 1270px) {
+    html, body {
+        height: 100%;
+        overflow: hidden; /* Adicionado para evitar overflow */
+    }
+
     header {
-        height: 4%;
+        height: 4vh;
         width: 100%;
     }
     main {
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        gap: 15px;
         align-items: center;
         margin: 0px 0px 0px 0px;
         width: 100%;
-        height: 100%;
+        height: calc(100vh - 9vh - 20px);
     }
 
     .input-text {
@@ -168,18 +173,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40px;
         font-size: 16px;
         background-color: var(--secondary-color);
         color: var(--quaternary-color);
         width: 100%;
-        height: 5%;
+        height: 5vh;
     }
 }
 
 @media (max-width: 768px) {
     header {
-        height: 4%;
+        height: 4vh;
         width: 100%;
     }
 
@@ -190,7 +194,7 @@
         align-items: center;
         margin: 0px 0px 0px 0px;
         width: 100%;
-        height: 100%;
+        height: calc(100vh - 9vh - 20px);
     }
 
     .input-text {
@@ -335,12 +339,12 @@
         justify-content: center;
         align-items: center;
         height: 40px;
-        font-size: 16px;
+        font-size: 12px;
         background-color: var(--secondary-color);
         color: var(--quaternary-color);
         width: 100%;
         text-align: center;
-        height: 5%;
+        height: 5vh;
     }
 }
 
@@ -380,7 +384,7 @@
         justify-content: space-evenly;
         align-items: center;
         margin: 0px 0px 0px 0px;
-        height: 100%;
+        height: calc(100vh - 100px);
     }
 
     .input-text {
