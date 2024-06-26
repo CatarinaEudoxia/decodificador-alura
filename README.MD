@@ -1,4 +1,4 @@
-# <h1 align="center"> [CodeMystic — Decodificador](https://catarinaeudoxia.github.io/decodificador-alura/){:target="_blank"} </h1>
+# <h1 align="center" target="_blank" > [CodeMystic — Decodificador](https://catarinaeudoxia.github.io/decodificador-alura/) </h1>
 
 
 <p align="center">
