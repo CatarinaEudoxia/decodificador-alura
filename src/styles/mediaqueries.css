@@ -8,6 +8,12 @@
         height: 4vh;
         width: 100%;
     }
+
+    .vertical-line {
+        border-left: 1px solid #000000; 
+        height: 45px; 
+    }
+
     main {
         flex: 1;
         display: flex;
@@ -374,7 +380,7 @@
 
     .vertical-line {
         border-left: 1px solid #000000; 
-        height: 45px; 
+        height: 40px; 
     }
 
     #logo-decode {
@@ -573,6 +579,11 @@
         margin: 10px 10px 10px 10px;
         font-size: 8px;
 
+    }
+
+    .vertical-line {
+        border-left: 1px solid #000000; 
+        height: 35px; 
     }
 
     #logo-decode {
