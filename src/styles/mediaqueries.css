@@ -202,7 +202,7 @@
         flex-direction: column;
         border-radius: 30px;
         width: 90%;
-        height: 45%;
+        height: 40%;
         padding: 5px;
         align-items: center;
         background-color: var(--quaternary-color);
@@ -296,7 +296,7 @@
         align-items: center;
         justify-content: center;
         width: 90%;
-        height: 45%;
+        height: 40%;
         padding: 5px;
     }
 

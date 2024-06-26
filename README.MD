@@ -1,4 +1,4 @@
-# <h1 align="center"> [CodeMystic — Decodificador](https://catarinaeudoxia.github.io/decodificador-alura/) </h1>
+# <h1 align="center"> [CodeMystic — Decodificador](https://catarinaeudoxia.github.io/decodificador-alura/){:target="_blank"} </h1>
 
 
 <p align="center">
@@ -51,7 +51,7 @@ Embora o projeto tenha um modelo de design inicial fornecido, os participantes t
 
 # 4. CodeMystic aqui:
 
-### Aproveite e de uma olhadinha no projeto [CodeMystic - Decodificador!](https://catarinaeudoxia.github.io/decodificador-alura/)
+### Aproveite e de uma olhadinha no projeto [CodeMystic - Decodificador!](https://catarinaeudoxia.github.io/decodificador-alura/){:target="_blank"}
 
 <p align="center">
   <img src="src/assets/final-result.png" alt="Imagem com o logo do codeMystic">
